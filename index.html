@@ -1,0 +1,30 @@
+<html>
+ <head></head>
+ <body>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>手速测试</title>
+  <style>
+   *{
+     margin:0;
+     papadding:0;
+     }
+ h1{
+   width:200px;
+   height:200;
+   background-color:pink;
+   text-align:center;
+   line-height:200px;
+   color:white;
+   border-radius:50%;
+   margin:200px auto;
+   }
+ </style>
+  <h1 id="c" onclick="count++">点击</h1>
+  <script>
+      let count = 0
+      setTimeout(()=>{
+        alert("时间到了，你一共点击了"+count+"次数"); 
+        },3000);
+   </script>
+ </body>
+</html>
